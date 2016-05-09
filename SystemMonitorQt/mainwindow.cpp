@@ -21,7 +21,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    QString fileName = "C:/test/test.txt";
+    QString fileName = "~/system_status.log";
 
     if (!fileName.isEmpty()) {
         QFile file(fileName);
