@@ -6,38 +6,48 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>283</width>
-    <height>300</height>
+    <width>232</width>
+    <height>252</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>System Monitor</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>210</y>
-      <width>111</width>
+      <x>50</x>
+      <y>160</y>
+      <width>131</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Refresh</string>
+     <string>Read System File</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>50</y>
-      <width>241</width>
-      <height>20</height>
+      <x>10</x>
+      <y>9</y>
+      <width>251</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>System Voltages:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>31</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -46,7 +56,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>283</width>
+     <width>232</width>
      <height>21</height>
     </rect>
    </property>

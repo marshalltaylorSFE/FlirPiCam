@@ -30,7 +30,7 @@ void MainWindow::on_pushButton_clicked()
             return;
         }
         QTextStream in(&file);
-        ui->label->setText(in.readAll());
+        ui->textBrowser->setText(in.readAll());
         file.close();
     }
 }
