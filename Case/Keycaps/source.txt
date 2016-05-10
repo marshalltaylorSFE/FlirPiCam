@@ -1,0 +1,20 @@
+http://www.thingiverse.com/thing:1320847
+
+Summary
+
+Replacement key cap modeled after a key cap of a Razer Black Widow keyboard
+
+Print Settings
+
+Printer Brand: RepRap
+Printer: Mendel 90
+Rafts: No
+Supports: No
+Resolution: 0.2 mm
+Infill: 100%
+
+Notes:
+Should print without supports.
+Post-Printing
+
+You'll have to remove the inbuilt supports at the bottom. They were included because the center shaft has usually too little adhesion to the build plate and will shake loose at about 50% print progress.
