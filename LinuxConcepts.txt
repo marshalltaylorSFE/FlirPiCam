@@ -1,0 +1,37 @@
+ls -l /dev/ttyUSB0
+and you will see something like "crw-rw----T 1 root dialout ..."
+
+(unused)Teensy rules for something?
+/etc/udev/rules.d/49-teensy.rules
+
+
+Create /etc/init/ttyUSB0.conf and paste the following into it:
+# ttyUSB0 - getty on USB serial port
+#
+# This service maintains a getty on ttyUSB0 from the point the system is
+# started until it is shut down again.
+
+start on stopped rc RUNLEVEL=[2345]
+stop on runlevel [!2345]
+
+respawn
+exec /sbin/getty -L 115200 ttyUSB0 vt102
+
+
+Edit /etc/inittab
+
+something like:
+T0:23:respawn:/sbin/getty -L ttyS0 115200 vt100
+
+
+...then...
+
+sudo /sbin/telinit q
+
+
+Bash commands:
+
+Redirection:
+> is output redirection symbol.
+>> is append output redirection symbol.
+
