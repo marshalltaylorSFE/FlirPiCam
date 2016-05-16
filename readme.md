@@ -10,6 +10,7 @@ Features
 
 * Flir Lepton module
 * Raspberry Pi 2
+* 7 inch touchscreen
 * ~1 hour battery life
 * Rechargeable
 * Battery monitoring into linux
@@ -36,6 +37,19 @@ System Firmware
 * Operates as class compliant keyboard for some functions (login screepting).  TODO: auto login
 * Operates as USB serial TTY for running screen capture/custom scripts
 * Button hold features implemented, can be used for alternate scripts of sudoing the scripts
+
+System Hardware
+-----------------
+
+* 2 powercells
+* 2 lipo batteries
+* Physical battery disconnect switch
+* MCU connected by USB
+* Diode or-ing of power rails, priority to source
+* 4 buttons
+* 1 LED
+* analog channels calibrated by TLV431 bandgap ref
+* Measures battery voltages and system rail
 
 This is released under the [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license. 
 
