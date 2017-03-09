@@ -1,0 +1,42 @@
+Buttons:  USB ports<-[1, 2, 3, 4]
+
+Button 1:
+Use to enter username
+Use to enter password
+Use to enter startx
+Use to start system monitor back-end
+
+Button 2:
+Take picture (Saves to home)
+
+Button 3:
+Mount USB device
+
+Button 4:
+Unmount USB device
+
+
+Booting procedure
+1.  Wait for prompt
+2.  Push button 1
+3.  Wait for prompt (and flashing button)
+4.  Push button 1
+5.  Wait for prompt (and flashing button)
+6.  Push button 1
+7.  Wait for WDM to load
+8.  Push button 1 to start system monitor (LED should go solid)
+9.  Load the "Stock Video Viewer" and "System Monitor", arrange on screen
+
+Do FFC with flat temp field
+Click "Read System File" to get voltages
+Push button 2 to take picture
+
+Battery switch:
+
+  Left: Batteries disconnected
+  Right: Batteries connected
+
+If the system monitor reports values like 4.2 on both batteries, they are charged or charging and connected
+If the values are in the lower range, they are not connected, or the wall adapter is not connected.
+
+DO NOT LEAVE SWITCH IN RIGHT POSITION.  Alaways disconnect cells between use.
